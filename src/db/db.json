@@ -34,6 +34,13 @@
       "password": "password4",
       "role": "employee",
       "id": 5
+    },
+    {
+      "name": "EmployeeFive",
+      "email": "employee5@example.com",
+      "password": "password5",
+      "role": "employee",
+      "id": 6
     }
   ],
   "scrums": [
@@ -52,6 +59,18 @@
     {
       "name": "Scrum Team D",
       "id": 4
+    },
+    {
+      "name": "Scrum Team E",
+      "id": 5
+    },
+    {
+      "name": "Scrum Team F",
+      "id": 6
+    },
+    {
+      "name": "Scrum Team D",
+      "id": 7
     }
   ],
   "tasks": [
@@ -59,7 +78,7 @@
       "id": 1,
       "title": "Task One",
       "description": "Description for Task One",
-      "status": "Done",
+      "status": "In Progress",
       "scrumId": 1,
       "assignedTo": 2,
       "history": [
@@ -74,6 +93,18 @@
         {
           "status": "Done",
           "date": "2024-08-26"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
         }
       ]
     },
@@ -114,7 +145,7 @@
       "description": "Description for Task 4",
       "status": "To Do",
       "scrumId": 4,
-      "assignedTo": "5",
+      "assignedTo": 5,
       "history": [
         {
           "status": "To Do",
@@ -122,6 +153,48 @@
         }
       ],
       "id": 4
+    },
+    {
+      "title": "Task 5",
+      "description": "Description for Task 5",
+      "status": "To Do",
+      "scrumId": 5,
+      "assignedTo": 5,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "Task 6",
+      "description": "Description for Task 6",
+      "status": "To Do",
+      "scrumId": 6,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "Task 4",
+      "description": "Description for Task 4",
+      "status": "To Do",
+      "scrumId": 7,
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        }
+      ],
+      "id": 7
     }
   ]
 }

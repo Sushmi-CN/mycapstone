@@ -37,7 +37,7 @@ const ScrumDetails = ({ scrum }) => {
         const fetchUsers = async () => {
             try {
                 const response = await axios.get('http://localhost:4000/users');
-                const scrumUsers = response.data.filter(user => tasks.some(task => task.assignedTo === user.id));
+                const scrumUsers = response.data.filter(user => tasks.some(task => Number(task.assignedTo) === Number(user.id)));
                 setUsers(scrumUsers);
             } catch (error) {
                 console.error('Error fetching users:', error);
