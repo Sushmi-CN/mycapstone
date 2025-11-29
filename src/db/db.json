@@ -41,6 +41,13 @@
       "password": "password5",
       "role": "employee",
       "id": 6
+    },
+    {
+      "name": "Employee Six",
+      "email": "employee6@gmail.com",
+      "password": "password6",
+      "role": "employee",
+      "id": 7
     }
   ],
   "scrums": [
